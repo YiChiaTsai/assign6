@@ -19,7 +19,7 @@
         // 提示 2 : 將未登入的使用者轉指導 logIn 頁面
       var currentUser = Parse.User.current();
         if(!currentUser){
-          alert("未登入，自動轉至登入頁面以利登入");
+          alert("您並未登入，將由老師頁面轉至登入頁面要求登入!");
           window.location = 'logIn.html';
           return null;
         }
